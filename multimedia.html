@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="spanish">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        background-color: rgb(68, 127, 182);
+        color:#ffffff;
+        text-align: center;
+        padding: 10px;
+        font-size: 40px;
+    }
+    footer{
+        background-color: rgb(68, 127, 182);
+        color:#ffffff;
+        text-align: center;
+        padding: 10px;
+    }
+    .boton-regreso{
+        display: inline-block;
+        padding: 5px 15px;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        background-color: #4461c2;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 3px;
+        border-color: black;
+        transition: background-color 0.3s ease;
+    }
+    .boton-regreso:hover{
+        background-color: #7e94b0;
+    }
+    .boton-externo{
+        display: inline-block;
+        padding: 5px 15px;
+        font-size: 12px;
+        color: rgb(189, 203, 222);
+        background-color: #4461c2;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 3px;
+        border-color: black;
+        transition: background-color 0.3s ease;
+    }
+    .boton-externo:hover{
+        background-color: #7e94b0;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> MULTIMEDIA <br />
+        <a href="index.html" class="boton-regreso">Volver al inicio</a>
+    </header>
+    <section id="Contenidos multimedia">
+        <h2> Multimedia </h2>
+        <p>Esto es un enlace interno</p>
+        <div>
+            <h3> 5. Elementos multimedia</h3>
+            <p>Audio: </p>
+            <audio 
+            <source src="pajaros.m4a" controls autoplay> />
+        </div>
+        <div>
+            <p>Imagen:</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Shrek_lass_nach_-_panoramio.jpg/640px-Shrek_lass_nach_-_panoramio.jpg"
+            width="450px"
+            height="450px"
+            alt="Es una imagen de Shrek" />
+            <p>Video:</p>
+            <video 
+            controls
+            width="500px"
+            height="300px"
+            alt="Es un  mono girando" 
+            <source src="monogirando.mp4" type="video/mp4"> /> <br />
+        </div>
+    </section>
+    <section id="Pie de página">
+        <footer>
+            <p>&copy; 2024 Mariano Caylá - Universidad Tecnológica Nacional - FRM. Todos los derechos reservados.</p>
+                    <a href="https://github.com/Mariano0230/DesarrolloDeSoftware2024" class="boton-externo" target="_blank">Repositorio GitHub</a>
+                    <a href="https://campus.frm.utn.edu.ar" class="boton-externo" target="_blank">Campus virtual</a>
+        </footer>
+    </section>
+</body>
+</html>

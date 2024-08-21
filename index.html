@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="spanish">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    header,
+    footer {
+        background-color: rgb(68, 127, 182);
+        color:#ffffff;
+        text-align: center;
+        padding: 10px;
+    }
+    .boton-cabecera{
+        display: inline-block;
+        padding: 7.5px 22.5px;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        background-color: #304283cc;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 3px;
+        border-color: blacks;
+        transition: background-color 0.3s ease;
+    }
+    .boton-cabecera:hover{
+        background-color: #7e94b0;
+    }
+    .boton-externo{
+        display: inline-block;
+        padding: 5px 15px;
+        font-size: 12px;
+        color: rgb(189, 203, 222);
+        background-color: #4461c2;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 3px;
+        border-color: black;
+        transition: background-color 0.3s ease;
+    }
+    .boton-externo:hover{
+        background-color: #7e94b0;
+    }
+    .resaltado{
+        color: rgb(19, 222, 245);
+        font-weight: bold;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>TP Desarrollo: HTML</h1>
+        <a href="estructura.html" class="boton-cabecera"> Ir a Estructura</a>
+        <a href="multimedia.html" class="boton-cabecera"> Ir a Multimedia</a>
+        <a href="formsytablas.html" class="boton-cabecera"> Ir a Formularios y tablas</a>
+    </header>
+    <section id="Parte básica">
+        <h1> 1. Estructura básica del documento HTML</h1>
+        <p>Este documento HTML tiene una estrucutra básica que incluye una declaración de tipo DOCTYPE, etiqueta de metadatos y un título.</p>
+        <h2> 2. Encabezados y Propiedades del Texto </h2>
+        <p>
+            <b>Esto es un texto en negrita</b><br />
+            <em> Esto es un texto en cursiva</em><br >
+            <u> Esto es un texto subrayado</u><br />
+            Esto es un <span class="resaltado">texto resaltado </span>con span
+        </p>
+    </section>
+    <section id="Parte intermedia">
+        <h3>3. Divisiones y agrupación de contenido</h3>
+            <div>
+                <b> Sección 1</b>
+                <p>Contenido de la primera sección agrupada en un div</p>
+            </div>
+            <div>
+                <b>Sección 2</b>
+                <p> Contenido de la segunda sección agrupada en un div </p>
+            </div>
+            <div>
+                <h4>4. Enlaces y listas</h4>
+                <p>Visita nuestro <a href="https://campus.frm.utn.edu.ar">sitio web</a></p>
+                <p><b>Enlaces internos:</b></p>
+                <ul>
+                    <li><a href="#Parte básica">Ir al inicio</a></li>
+                    <li><a href="#Pie de página">Ir al pie de página</a></li>
+                    <li><a href="estructura.html"> Ir a Estructura</a> <br /> </li>
+                    <li><a href="multimedia.html"> Ir a Multimedia</a></li>
+                    <li><a href="formsytablas.html"> Ir a Formularios y tablas</a></li>
+                </ul>
+                <p><b>Lista desordenada:</b></p>
+                <ul>
+                    <li>Este es el primer elemento de la lista desordenada</li>
+                    <li>Este es el segundo elemento de la lista desordenada</li>
+                </ul>
+                <p><b>Lista ordenada:</b></p>
+                <ol>
+                    <li>Este es el primer elemento de la lista ordenada</li>
+                    <li>Este es el segundo elemento de la lista ordenada</li>
+                </ol>
+            </div>
+    </section>
+    <section id="Pie de página">
+        <footer>
+            <p>&copy; 2024 Mariano Caylá - Universidad Tecnológica Nacional - FRM. Todos los derechos reservados.</p>
+                    <a href="https://github.com/Mariano0230/DesarrolloDeSoftware2024" class="boton-externo" target="_blank">Repositorio GitHub</a>
+                    <a href="https://campus.frm.utn.edu.ar" class="boton-externo" target="_blank">Campus virtual</a>
+        </footer>
+    </section>
+</body>
+</html>
